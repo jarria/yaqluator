@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.9-slim
 
 # Set the working directory (application base directory).
 RUN mkdir -p /var/www/yaqluator.com
