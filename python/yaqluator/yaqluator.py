@@ -15,7 +15,7 @@ except:
 
 def _evaluate(yaql_expression, yaml_data, legacy=False):
     engine_options = {
-        'yaql.limitIterators': 100,
+        'yaql.limitIterators': 10000,
         'yaql.convertSetsToLists': True,
         'yaql.memoryQuota': 10000
     }
